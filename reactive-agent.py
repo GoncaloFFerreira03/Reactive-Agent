@@ -8,7 +8,7 @@ WIND_POWER = 15.0
 TURBULENCE_POWER = 0.0
 GRAVITY = -10.00
 RENDER_MODE = 'human'
-#RENDER_MODE = None #seleccione esta opção para não visualizar o ambiente (testes mais rápidos)
+#RENDER_MODE = None 
 EPISODES = 1000
 
 env = gym.make("LunarLander-v3", render_mode =RENDER_MODE, 
